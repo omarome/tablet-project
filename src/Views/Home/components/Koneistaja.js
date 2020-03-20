@@ -27,7 +27,7 @@ class Koneistaja extends Component {
              <Link to= {"/"+company.name}>{company.name}</Link>
          </li> 
         );
-        console.log(this.state);
+        
       return (
           <div className="container">  
             <div className="row">
