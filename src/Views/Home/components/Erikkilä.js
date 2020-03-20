@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class Planmeca extends Component {
+class Erikkilä extends Component {
 
     state = {
 
@@ -13,7 +13,7 @@ class Planmeca extends Component {
      }
  
      getCompany = () => {
-         fetch("/planmeca/")
+         fetch("/erikkila/")
          .then(response => response.json())
          .then(response => this.setState({ company: response.data }))
          .catch(error => console.log(error))
@@ -25,4 +25,4 @@ class Planmeca extends Component {
         
    }
 
-export default Planmeca;
+export default Erikkilä;

@@ -5,6 +5,7 @@ class Koneistaja extends Component {
      
     state = {
        companies: []
+       
     }
 
     componentDidMount() {
@@ -17,7 +18,7 @@ class Koneistaja extends Component {
         .then(response => this.setState({ companies: response.data }))
         .catch(error => console.log(error))
     }
-
+    
     render() {
         const { companies } = this.state;
 
@@ -26,7 +27,7 @@ class Koneistaja extends Component {
              <Link to= {"/"+company.name}>{company.name}</Link>
          </li> 
         );
-
+        console.log(this.state);
       return (
           <div className="container">  
             <div className="row">
