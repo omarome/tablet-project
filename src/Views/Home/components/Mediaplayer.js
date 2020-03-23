@@ -1,19 +1,22 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactPlayer from 'react-player'
 import './App.css';
 
-function ResponsivePlayer() {
+class Mediaplayer extends Component {
+  render() {
+      const { url, width, height } = this.props;
       return (
         <div className='player-wrapper'>
           <ReactPlayer
             className='react-player'
-            url='https://www.youtube.com/watch?v=g91cYBnkUJY&t=7s'
-            width='40%'
-            height='140%'
+            url={ url }
+            width={ width }
+            height={ height }
             controls={true}
           />
         </div>
       )
     }
+  }
 
-    export default ResponsivePlayer
+export default Mediaplayer
