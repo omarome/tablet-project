@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-class Levyseppähitsaaja extends Component {
+class Koneistaja extends Component {
      
     state = {
        companies: []
+       
     }
 
     componentDidMount() {
@@ -12,12 +13,12 @@ class Levyseppähitsaaja extends Component {
     }
 
     getCompanies = () => {
-        fetch("/levyseppahitsaaja/")
+        fetch("/koneistaja/")
         .then(response => response.json())
         .then(response => this.setState({ companies: response.data }))
         .catch(error => console.log(error))
     }
-
+    
     render() {
         const { companies } = this.state;
 
@@ -26,9 +27,10 @@ class Levyseppähitsaaja extends Component {
              <Link to= {"/"+company.name}>{company.name}</Link>
          </li> 
         );
-
+        
       return (
           <div className="container">  
+          <h4>Koneistaja</h4>
             <div className="row">
               <div className= "col-md-5 offset-md-8">
                 <ul className="list-group">
@@ -42,4 +44,4 @@ class Levyseppähitsaaja extends Component {
     }
 }
 
-export default Levyseppähitsaaja;
+export default Koneistaja;
