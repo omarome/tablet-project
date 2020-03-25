@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import ReactPlayer from "react-player";
+import "./Secondpage.css";
 
 class Koneasentaja extends Component {
      
@@ -26,17 +28,47 @@ class Koneasentaja extends Component {
              <Link to= {"/"+company.name}>{company.name}</Link>
          </li> 
         );
-
-      return (
-          <div className="container">  
-            <div className="row">
-              <div className= "col-md-5 offset-md-8">
-                <ul className="list-group">
-                  {companyList}
-                </ul>
-              </div>
-            </div>          
-          </div>   
+        
+      return (   
+          <div className="container-fluid">  
+            <h1 className= "font-weight-bold">Koneasentaja</h1>
+             <div className="row mt-5">
+               <div className="col-md-4 offset-md-1">
+                <h2 className= "font-weight-bold mb-3">Töitä tarjoavat yritykset</h2>
+                 <ul className="list-group ">
+                   {companyList}
+                 </ul>
+               </div> 
+             <div className="col-md-4 offset-md-2 mt-4">
+               <h2 className="font-weight-bold mb-3">Koneasennuksen esittelyvideo</h2>  
+                  <ReactPlayer 
+                   className="Bordertwo"
+                   url="https://www.youtube.com/watch?v=8A_3LpmzVTc&t=14s"
+                   width="100%"
+                   controls={true}/>       
+                </div>  
+             </div>  
+           <div className="col-md-4 offset-md-7 mt-5">
+              <h4 className= "font-weight-bold">Tutkinnon-osan vaatimukset</h4>
+                <div className="Border">
+                  <p className="font-weight-bold"> 
+                    link/text
+                  </p>
+                  <p className="font-weight-bold"> 
+                    link/text
+                  </p>
+                  <p className="font-weight-bold"> 
+                    link/text
+                  </p>
+                  <p className="font-weight-bold"> 
+                    link/text
+                  </p>
+                  <p className="font-weight-bold"> 
+                    link/text
+                  </p>
+              </div> 
+            </div>                
+          </div>
       )
         
     }
