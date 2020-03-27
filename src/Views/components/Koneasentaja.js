@@ -31,9 +31,9 @@ class Koneasentaja extends Component {
         
       return (   
           <div className="container-fluid">  
-            <h1 className= "font-weight-bold">Koneasentaja</h1>
+            <h1 className= "font-weight-bold mt-4">Koneasentaja</h1>
              <div className="row mt-5">
-               <div className="col-md-4 offset-md-1">
+               <div className="col-md-4 offset-md-1 mt-3">
                 <h2 className= "font-weight-bold mb-3">Töitä tarjoavat yritykset</h2>
                  <ul className="list-group ">
                    {companyList}
