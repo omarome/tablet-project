@@ -3,7 +3,9 @@ import { Link } from "react-router-dom";
 import ReactPlayer from "react-player";
 import "./Secondpage.css";
 
+
 class Koneautomaatioasentaja extends Component {
+  
      
     state = {
        companies: []
@@ -31,9 +33,9 @@ class Koneautomaatioasentaja extends Component {
 
       return (
         <div className="container-fluid">  
-            <h1 className= "font-weight-bold">Koneautomaatioasentaja</h1>
+            <h1 className= "font-weight-bold mt-4">Koneautomaatioasentaja</h1>
              <div className="row mt-5">
-               <div className="col-md-4 offset-md-1">
+               <div className="col-md-4 offset-md-1 mt-3">
                 <h2 className= "font-weight-bold mb-3">Töitä tarjoavat yritykset</h2>
                  <ul className="list-group ">
                    {companyList}
