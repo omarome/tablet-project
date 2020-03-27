@@ -48,23 +48,26 @@ class Levyseppähitsaaja extends Component {
                controls={true}/>       
             </div>  
          </div>  
-       <div className="col-md-4 offset-md-7 mt-5">
+       <div className="col-md-4 offset-md-7 mt-5 mb-3">
           <h4 className= "font-weight-bold">Tutkinnon-osan vaatimukset</h4>
             <div className="Border">
               <p className="font-weight-bold"> 
-                link/text
+              Opiskelija osaa: 
               </p>
               <p className="font-weight-bold"> 
-                link/text
+              · Käsitellä hitsaus- ja levytöiden valmistamiseen käytettävien materiaaleja
               </p>
               <p className="font-weight-bold"> 
-                link/text
+              · Käyttää levytyökoneita ja tehdä levytöitä
               </p>
               <p className="font-weight-bold"> 
-                link/text
+              · Tehdä hitsaus- ja levytöiden esivalmistelu- ja viimeistelytyöt
               </p>
               <p className="font-weight-bold"> 
-                link/text
+              · Tehdä hitsaustöitä
+              </p>
+              <p className="font-weight-bold">
+              · Noudattaa työelämän toimintatapoja ja hitsaus- ja levytöiden työturvallisuusvaatimuksia
               </p>
           </div> 
         </div>                

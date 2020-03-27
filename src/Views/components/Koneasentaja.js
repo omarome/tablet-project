@@ -52,19 +52,17 @@ class Koneasentaja extends Component {
               <h4 className= "font-weight-bold">Tutkinnon-osan vaatimukset</h4>
                 <div className="Border">
                   <p className="font-weight-bold"> 
-                    link/text
+                  Opiskelija osaa: 
                   </p>
                   <p className="font-weight-bold"> 
-                    link/text
+                  · Suunnitella työtään ja hyödyntää mekaanisissa koneenasennuksissa tarvittavia piirustuksia,
+                  kuvia ja ohjeita
                   </p>
                   <p className="font-weight-bold"> 
-                    link/text
+                  · Tehdä mekaanisia koneasennustöitä ja niihin liittyviä mittauksia
                   </p>
                   <p className="font-weight-bold"> 
-                    link/text
-                  </p>
-                  <p className="font-weight-bold"> 
-                    link/text
+                  · Noudattaa työelämän toimintatapoja ja koneasennuksien työturvallisuusvaatimuksia
                   </p>
               </div> 
             </div>                
