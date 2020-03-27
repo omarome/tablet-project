@@ -13,6 +13,7 @@ import Koneasenataja from './Views/components/Koneasentaja'
 import Koneautomaatioasentaja from './Views/components/Koneautomaatioasentaja'
 import Levyseppähitsaaja from './Views/components/Levyseppähitsaaja'
 import Koneistaja from './Views/components/Koneistaja'
+import Metso from './Views/components/Metso'
 function App() {
   return (
     <div className="App">
@@ -63,6 +64,9 @@ function App() {
             </Route>
             <Route path="/koneistaja">
               <Koneistaja />
+            </Route>
+            <Route path="/Metso Oy">
+              <Metso />
             </Route>
           </Switch>
         </div>
