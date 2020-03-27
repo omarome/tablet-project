@@ -3,7 +3,9 @@ import { Link } from "react-router-dom";
 import ReactPlayer from "react-player";
 import "./Secondpage.css";
 
+
 class Koneautomaatioasentaja extends Component {
+  
      
     state = {
        companies: []
