@@ -4,7 +4,15 @@ export default function Contact(){
 
     return(
         <div>
-            Contact page 
+           <h2>Puhelinvaihde</h2>
+           <h1>Puhelinvaihde aina auttaa löytämään etsimääsi palveluun.</h1>
+           <p>
+p. 09 231 999
+Palvelut opiskelijoille sekä tietoa opiskelijaksi hakevalle löytyy InfoOmniasta
+info@omnia.fi, p. 09 2319 8360.
+Todistusjäljennöspyynnöt toimitetaan InfoOmniaan.
+Omnian asiakastyöt ja -palvelut -yhteystiedot löytyvät omilta sivuiltaan.
+Kaikki muut yhteystiedot löytyvät alhaalla olevilta laatikoilta.</p>
         </div>
     )
 }
