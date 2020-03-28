@@ -4,8 +4,8 @@ export default function Contact(){
 
     return(
         <div>
-           <h2>Puhelinvaihde</h2>
-           <h1>Puhelinvaihde aina auttaa löytämään etsimääsi palveluun.</h1>
+           <h1>Puhelinvaihde</h1>
+           <h2>Puhelinvaihde aina auttaa löytämään etsimääsi palveluun.</h2>
            <p>
 p. 09 231 999
 Palvelut opiskelijoille sekä tietoa opiskelijaksi hakevalle löytyy InfoOmniasta
