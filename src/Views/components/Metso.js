@@ -29,8 +29,8 @@ class Metso extends Component {
         <h1>Metso</h1>
         <div class="info">
           <h2>Infoa yrityksestä</h2>
-          <div>{"Metso Oyj on suomalainen prosessiteollisuusalan pörssiyritys. Sen asiakkaisiin kuuluvat kaivos-, kivenmurskaus-,"}</div>
-          <div>{"öljy- ja kaasualoilla ja kierrätyksessä sekä paperi-, sellu- ja prosessiteollisuudessa toimivat yritykset."}</div>
+          <div class="text1">{"Metso Oyj on suomalainen prosessiteollisuusalan pörssiyritys. Sen asiakkaisiin kuuluvat kaivos-, kivenmurskaus-,"}</div>
+          <div class="text2">{"öljy- ja kaasualoilla ja kierrätyksessä sekä paperi-, sellu- ja prosessiteollisuudessa toimivat yritykset."}</div>
         </div>
         <div class="kotisivu">
           <p>Yrityksen kotisivut: <a href="https://www.metso.com/fi/" target="_blank">Metso</a></p>
