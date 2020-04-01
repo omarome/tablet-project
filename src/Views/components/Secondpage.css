@@ -1,7 +1,21 @@
 .Border {
     border: 7px solid #B2DBD6;
+    border-radius: 20px;
 }
 
 .Bordertwo {
     border: 5px solid #E84D0E;
+}
+
+.Teksti {
+    font-family: Georgia;
+    font-style: italic;
+}
+
+.Otsikko {
+    font-family: Arial;
+    font-weight: bold;
+}
+p {
+    font-size: 18px;
 }

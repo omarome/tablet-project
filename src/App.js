@@ -14,6 +14,7 @@ import Koneautomaatioasentaja from './Views/components/Koneautomaatioasentaja'
 import Levyseppähitsaaja from './Views/components/Levyseppähitsaaja'
 import Koneistaja from './Views/components/Koneistaja'
 import Metso from './Views/components/Metso'
+import Planmeca from './Views/components/Planmeca'
 function App() {
   return (
     <div className="App">
@@ -67,6 +68,9 @@ function App() {
             </Route>
             <Route path="/Metso Oy">
               <Metso />
+            </Route>
+            <Route path="/Planmeca Oy">
+              <Planmeca />
             </Route>
           </Switch>
         </div>
