@@ -32,9 +32,9 @@ class Koneistaja extends Component {
         
       return (
         <div className="container-fluid">  
-        <h1 className= "font-weight-bold">Koneistaja</h1>
+        <h1 className= "font-weight-bold mt-4">Koneistaja</h1>
          <div className="row mt-5">
-           <div className="col-md-4 offset-md-1">
+           <div className="col-md-4 offset-md-1 mt-3">
             <h2 className= "font-weight-bold mb-3">Töitä tarjoavat yritykset</h2>
              <ul className="list-group ">
                {companyList}
@@ -49,23 +49,24 @@ class Koneistaja extends Component {
                controls={true}/>       
             </div>  
          </div>  
-       <div className="col-md-4 offset-md-7 mt-5">
+       <div className="col-md-4 offset-md-7 mt-5 mb-3">
           <h4 className= "font-weight-bold">Tutkinnon-osan vaatimukset</h4>
             <div className="Border">
               <p className="font-weight-bold"> 
-                link/text
+              Opiskelija osaa: 
               </p>
               <p className="font-weight-bold"> 
-                link/text
+              · Suunnitella koneistustyönsä ja hyödyntää työssään piirustuksia ja teknisiä dokumentteja
               </p>
               <p className="font-weight-bold"> 
-                link/text
+              · Valmistaa koneistettavia kappaleita käyttäen kärkisorveja, jyrsinkoneita, porakoneita sekä CNC-
+              ohjattua työstökonetta.
               </p>
               <p className="font-weight-bold"> 
-                link/text
+              · Mitata mekaanisilla mittavälineillä ja laatia mittauspöytäkirjan
               </p>
               <p className="font-weight-bold"> 
-                link/text
+              · Noudattaa työelämän toimintatapoja ja koneistuksen työturvallisuusvaatimuksia
               </p>
           </div> 
         </div>                

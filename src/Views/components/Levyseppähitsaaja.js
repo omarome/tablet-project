@@ -31,9 +31,9 @@ class Levyseppähitsaaja extends Component {
 
       return (
         <div className="container-fluid">  
-        <h1 className= "font-weight-bold">Levyseppähitsaaja</h1>
+        <h1 className= "font-weight-bold mt-4">Levyseppähitsaaja</h1>
          <div className="row mt-5">
-           <div className="col-md-4 offset-md-1">
+           <div className="col-md-4 offset-md-1 mt-3">
             <h2 className= "font-weight-bold mb-3">Töitä tarjoavat yritykset</h2>
              <ul className="list-group ">
                {companyList}
@@ -48,23 +48,26 @@ class Levyseppähitsaaja extends Component {
                controls={true}/>       
             </div>  
          </div>  
-       <div className="col-md-4 offset-md-7 mt-5">
+       <div className="col-md-4 offset-md-7 mt-5 mb-3">
           <h4 className= "font-weight-bold">Tutkinnon-osan vaatimukset</h4>
             <div className="Border">
               <p className="font-weight-bold"> 
-                link/text
+              Opiskelija osaa: 
               </p>
               <p className="font-weight-bold"> 
-                link/text
+              · Käsitellä hitsaus- ja levytöiden valmistamiseen käytettävien materiaaleja
               </p>
               <p className="font-weight-bold"> 
-                link/text
+              · Käyttää levytyökoneita ja tehdä levytöitä
               </p>
               <p className="font-weight-bold"> 
-                link/text
+              · Tehdä hitsaus- ja levytöiden esivalmistelu- ja viimeistelytyöt
               </p>
               <p className="font-weight-bold"> 
-                link/text
+              · Tehdä hitsaustöitä
+              </p>
+              <p className="font-weight-bold">
+              · Noudattaa työelämän toimintatapoja ja hitsaus- ja levytöiden työturvallisuusvaatimuksia
               </p>
           </div> 
         </div>                

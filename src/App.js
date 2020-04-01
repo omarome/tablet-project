@@ -30,13 +30,13 @@ function App() {
                 </Link>
               </li>
               <li className="nav-item active">
-                <Link className="nav-link" to="/">Home</Link>
+                <Link className="nav-link" to="/">Etusivu</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/contact">Contact</Link>
+                <Link className="nav-link" to="/contact">Ota yhteyttä</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/about">About</Link>
+                <Link className="nav-link" to="/about">Meistä</Link>
               </li>
             </ul>
 
@@ -66,7 +66,7 @@ function App() {
               <Koneistaja />
             </Route>
             <Route path="/Metso Oy">
-              <Metso/>
+              <Metso />
             </Route>
           </Switch>
         </div>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactPlayer from 'react-player'
-import './App.css';
+import './../../App.css';
 
 class Mediaplayer extends Component {
   render() {
