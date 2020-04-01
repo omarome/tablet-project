@@ -24,21 +24,21 @@ class Planmeca extends Component {
 
      render() {
         return (
-          <div class="Main">
+          <div className="container-fluid">
             <h1>Planmeca</h1>
-            <div class="info">
+            <div className="info">
               <h2>Infoa yrityksestä</h2>
-              <div class="text1">{"Planmeca Oy on yksi maailman johtavista hammashoitoteknologiaa valmistavista yhtiöistä, jonka tuotteita viedään noin 120 maahan."}</div>
-              <div class="text2">{" Suomalainen, vuonna 1971 perustettu perheyhtiö valmistaa mm. korkean teknologian hammashoitokoneita, 2D- ja 3D-röntgenlaitteita, ohjelmistoja sekä CAD/CAM-ratkaisuja."}</div>
+              <div className="text1">{"Planmeca Oy on yksi maailman johtavista hammashoitoteknologiaa valmistavista yhtiöistä, jonka tuotteita viedään noin 120 maahan."}</div>
+              <div className="text2">{" Suomalainen, vuonna 1971 perustettu perheyhtiö valmistaa mm. korkean teknologian hammashoitokoneita, 2D- ja 3D-röntgenlaitteita, ohjelmistoja sekä CAD/CAM-ratkaisuja."}</div>
             </div>
-            <div class="kotisivu">
+            <div className="kotisivu">
               <p>Yrityksen kotisivut: <a href="https://www.planmeca.com/fi/" target="_blank">Planmeca</a></p>
             </div>
-            <div class="vaatimukset">
+            <div className="vaatimukset">
               <h2>Yrityksen vaatimukset</h2>
-              <div class="eka">{"Yritykseen vaaditaan..."}</div>
+              <div className="eka">{"Yritykseen vaaditaan..."}</div>
             </div>
-            <div class="Mediaplayer">
+            <div className="Mediaplayer">
               <h2>Yrityksen esittelyvideo</h2>
               <Mediaplayer url="https://www.youtube.com/watch?v=g91cYBnkUJY&t=8s" width="100%" height="350%" />
             </div>

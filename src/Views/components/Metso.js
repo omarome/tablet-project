@@ -25,21 +25,21 @@ class Metso extends Component {
 
   render() {
     return (
-      <div class="Main">
-        <h1>Metso</h1>
-        <div class="info">
+      <div className="container-fluid">
+        <h1>Neles</h1>
+        <div className="info">
           <h2>Infoa yrityksestä</h2>
-          <div class="text1">{"Metso Oyj on suomalainen prosessiteollisuusalan pörssiyritys. Sen asiakkaisiin kuuluvat kaivos-, kivenmurskaus-,"}</div>
-          <div class="text2">{"öljy- ja kaasualoilla ja kierrätyksessä sekä paperi-, sellu- ja prosessiteollisuudessa toimivat yritykset."}</div>
+          <div className="text1">{"Metso Oyj on suomalainen prosessiteollisuusalan pörssiyritys. Sen asiakkaisiin kuuluvat kaivos-, kivenmurskaus-,"}</div>
+          <div className="text2">{"öljy- ja kaasualoilla ja kierrätyksessä sekä paperi-, sellu- ja prosessiteollisuudessa toimivat yritykset."}</div>
         </div>
-        <div class="kotisivu">
-          <p>Yrityksen kotisivut: <a href="https://www.metso.com/fi/" target="_blank">Metso</a></p>
+        <div className="kotisivu">
+          <p>Yrityksen kotisivut: <a href="https://www.metso.com/fi/" target="_blank">Neles</a></p>
         </div>
-        <div class="vaatimukset">
+        <div className="vaatimukset">
           <h2>Yrityksen vaatimukset</h2>
-          <div class="eka">{"Yritykseen vaaditaan..."}</div>
+          <div className="eka">{"Yritykseen vaaditaan..."}</div>
         </div>
-        <div class="Mediaplayer">
+        <div className="Mediaplayer">
           <h2>Yrityksen esittelyvideo</h2>
           <Mediaplayer url="https://www.youtube.com/watch?v=g91cYBnkUJY&t=8s" width="100%" height="350%" />
         </div>
