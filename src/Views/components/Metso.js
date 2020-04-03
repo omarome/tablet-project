@@ -31,7 +31,7 @@ class Metso extends Component {
         <h1 className="HeaderFont display-3 mt-4">Neles</h1>
         <div className="row mt-5">
           <div className="col-md-4 offset-md-1">
-            <h2 className="HeaderFont mt-3">Infoa yrityksestä</h2>
+            <h2 className="HeaderFont mt-3 ">Infoa yrityksestä</h2>
             <div>
               <p>Metso Oyj on suomalainen prosessiteollisuusalan pörssiyritys. Sen asiakkaisiin kuuluvat kaivos-, kivenmurskaus-,</p>
               <p>öljy- ja kaasualoilla ja kierrätyksessä sekä paperi-, sellu- ja prosessiteollisuudessa toimivat yritykset.</p>
@@ -39,13 +39,14 @@ class Metso extends Component {
           </div>
           
           
-          <div className="col-md-4 offset-md-7">
+          <div className="col-md-5 offset-1 mt-4">
             <h2 className="HeaderFont ">Yrityksen vaatimukset</h2>
-          <div className="eka">{"Yritykseen vaaditaan..."}</div>
-        </div>
+          <div className="eka"><p>"Yritykseen vaaditaan..."</p></div>
         </div>
         
-        <div className="Mediaplayer col-md-4 offset-md-1">
+        </div>
+
+        <div className="Mediaplayer col-md-4 offset-md-1 mt-5">
           <h2 className="HeaderFont">Yrityksen esittelyvideo</h2>
           <Mediaplayer
            url="https://www.youtube.com/watch?v=g91cYBnkUJY&t=8s" 

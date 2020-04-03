@@ -63,19 +63,6 @@
   right: 20px;
 }
 
-.vaatimukset {
-  float: right;
-}
-
-.info {
-  float: left;
-  width: 40%; 
-}
-
-.info p {
-  float: left;
-}
-
 .MintColoredBorder {
   border: 7px solid #B2DBD6;
 }
