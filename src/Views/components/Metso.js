@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Mediaplayer from './Mediaplayer';
 import './../../App.css';
 import { Link } from "react-router-dom";
+import ReactPlayer from "react-player";
 
 class Metso extends Component {
 
@@ -25,34 +26,40 @@ class Metso extends Component {
 
   render() {
     return (
-      <div class="Main">
-        <h1>Metso</h1>
-        <div class="info">
-          <h2>Infoa yrityksestä</h2>
-          <div class="text1">{"Metso Oyj on suomalainen prosessiteollisuusalan pörssiyritys. Sen asiakkaisiin kuuluvat kaivos-, kivenmurskaus-,"}</div>
-          <div class="text2">{"öljy- ja kaasualoilla ja kierrätyksessä sekä paperi-, sellu- ja prosessiteollisuudessa toimivat yritykset."}</div>
+      <div className="container-fluid">
+
+        <h1 className="HeaderFont display-3 mt-4">Neles</h1>
+        <div className="row mt-5">
+          <div className="col-md-4 offset-md-1">
+            <h2 className="HeaderFont mt-3 ">Infoa yrityksestä</h2>
+            <div>
+              <p>Metso Oyj on suomalainen prosessiteollisuusalan pörssiyritys. Sen asiakkaisiin kuuluvat kaivos-, kivenmurskaus-,</p>
+              <p>öljy- ja kaasualoilla ja kierrätyksessä sekä paperi-, sellu- ja prosessiteollisuudessa toimivat yritykset.</p>
+           </div>
+          </div>
+          
+          
+          <div className="col-md-5 offset-1 mt-4">
+            <h2 className="HeaderFont ">Yrityksen vaatimukset</h2>
+          <div className="eka"><p>"Yritykseen vaaditaan..."</p></div>
         </div>
-        <div class="kotisivu">
-          <p>Yrityksen kotisivut: <a href="https://www.metso.com/fi/" target="_blank">Metso</a></p>
+        
         </div>
-        <div class="vaatimukset">
-          <h2>Yrityksen vaatimukset</h2>
-          <div class="eka">{"Yritykseen vaaditaan..."}</div>
+
+        <div className="Mediaplayer col-md-4 offset-md-1 mt-5">
+          <h2 className="HeaderFont">Yrityksen esittelyvideo</h2>
+          <Mediaplayer
+           url="https://www.youtube.com/watch?v=g91cYBnkUJY&t=8s" 
+           width="100%" 
+           height="350%" />
         </div>
-        <div class="Mediaplayer">
-          <h2>Yrityksen esittelyvideo</h2>
-          <Mediaplayer url="https://www.youtube.com/watch?v=g91cYBnkUJY&t=8s" width="100%" height="350%" />
-        </div>
+        
+        <div className="kotisivu">
+           <p>Yrityksen kotisivut: <a href="https://www.metso.com/fi/" target="_blank">Neles</a></p>
+        </div>           
       </div>
     );
   }
-
-
-
-
-}
-     
-     
-     
+} 
 
 export default Metso;
