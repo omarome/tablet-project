@@ -27,6 +27,7 @@ class Metso extends Component {
   render() {
     return (
       <div className="container-fluid">
+<<<<<<< HEAD
 
         <h1 className="HeaderFont display-3 mt-4">Neles</h1>
         <div className="row mt-5">
@@ -41,6 +42,19 @@ class Metso extends Component {
           
           <div className="col-md-4 offset-md-7">
             <h2 className="HeaderFont ">Yrityksen vaatimukset</h2>
+=======
+        <h1>Neles</h1>
+        <div className="info">
+          <h2>Infoa yrityksestä</h2>
+          <p>"Metso Oyj on suomalainen prosessiteollisuusalan pörssiyritys. 
+          Sen asiakkaisiin kuuluvat kaivos-, kivenmurskaus-, öljy- ja kaasualoilla ja kierrätyksessä sekä paperi-, sellu- ja prosessiteollisuudessa toimivat yritykset.</p>
+        </div>
+        <div className="kotisivu">
+          <p>Yrityksen kotisivut: <a href="https://www.metso.com/fi/" target="_blank" title="Linkki metson kotisivulle">Neles</a></p>
+        </div>
+        <div className="vaatimukset">
+          <h2>Yrityksen vaatimukset</h2>
+>>>>>>> 6fe84f97f6054404ded415618df2f0266d2ddb0c
           <div className="eka">{"Yritykseen vaaditaan..."}</div>
         </div>
         </div>
