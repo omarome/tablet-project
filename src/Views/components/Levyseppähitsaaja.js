@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import ReactPlayer from "react-player";
-import "./Secondpage.css";
+import './../../App.css';
 
 class Levyseppähitsaaja extends Component {
      
@@ -31,42 +31,41 @@ class Levyseppähitsaaja extends Component {
 
       return (
         <div className="container-fluid">  
-        <h1 className= "Otsikko display-3 mt-4">Levyseppähitsaaja</h1>
+        <h1 className= "HeaderFont display-3 mt-4">Levyseppähitsaaja</h1>
          <div className="row mt-5">
            <div className="col-md-4 offset-md-1 mt-3">
-            <h2 className= "Otsikko mb-3">Töitä tarjoavat yritykset</h2>
+            <h2 className= "HeaderFont mb-3">Töitä tarjoavat yritykset</h2>
              <ul className="list-group ">
                {companyList}
              </ul>
            </div> 
          <div className="col-md-4 offset-md-2 mt-4">
-           <h2 className="Otsikko mb-3">Levyseppähitsauksen esittelyvideo</h2>  
+           <h2 className="HeaderFont mb-3">Levyseppähitsauksen esittelyvideo</h2>  
               <ReactPlayer 
-               className="Bordertwo"
                url="https://www.youtube.com/watch?v=8A_3LpmzVTc&t=14s"
                width="100%"
                controls={true}/>       
             </div>  
          </div>  
        <div className="col-md-4 offset-md-7 mt-5 mb-3">
-          <h4 className= "Otsikko">Tutkinnon-osan vaatimukset</h4>
-            <div className="Border">
-              <p className="Otsikko mt-2"> 
+          <h4 className= "HeaderFont">Tutkinnon-osan vaatimukset</h4>
+            <div className="MintColoredBorder">
+              <p className="HeaderFont mt-2"> 
               Opiskelija osaa: 
               </p>
-              <p className="Teksti"> 
+              <p className="ItalicText"> 
               · Käsitellä hitsaus- ja levytöiden valmistamiseen käytettävien materiaaleja
               </p>
-              <p className="Teksti"> 
+              <p className="ItalicText"> 
               · Käyttää levytyökoneita ja tehdä levytöitä
               </p>
-              <p className="Teksti"> 
+              <p className="ItalicText"> 
               · Tehdä hitsaus- ja levytöiden esivalmistelu- ja viimeistelytyöt
               </p>
-              <p className="Teksti"> 
+              <p className="ItalicText"> 
               · Tehdä hitsaustöitä
               </p>
-              <p className="Teksti">
+              <p className="ItalicText">
               · Noudattaa työelämän toimintatapoja ja hitsaus- ja levytöiden työturvallisuusvaatimuksia
               </p>
           </div> 

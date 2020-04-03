@@ -94,3 +94,24 @@
 .text2 {
   float: left;
 }
+
+.MintColoredBorder {
+  border: 7px solid #B2DBD6;
+}
+
+.ItalicText {
+  font-family: Georgia;
+  font-style: italic;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-right: 7px;
+  margin-left: 7px;
+}
+
+.HeaderFont {
+  font-family: Arial;
+  font-weight: bold;
+}
+p {
+  font-size: 18px;
+}
