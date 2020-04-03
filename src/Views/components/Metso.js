@@ -29,11 +29,11 @@ class Metso extends Component {
         <h1>Neles</h1>
         <div className="info">
           <h2>Infoa yrityksestä</h2>
-          <div className="text1">{"Metso Oyj on suomalainen prosessiteollisuusalan pörssiyritys. Sen asiakkaisiin kuuluvat kaivos-, kivenmurskaus-,"}</div>
-          <div className="text2">{"öljy- ja kaasualoilla ja kierrätyksessä sekä paperi-, sellu- ja prosessiteollisuudessa toimivat yritykset."}</div>
+          <p>"Metso Oyj on suomalainen prosessiteollisuusalan pörssiyritys. 
+          Sen asiakkaisiin kuuluvat kaivos-, kivenmurskaus-, öljy- ja kaasualoilla ja kierrätyksessä sekä paperi-, sellu- ja prosessiteollisuudessa toimivat yritykset.</p>
         </div>
         <div className="kotisivu">
-          <p>Yrityksen kotisivut: <a href="https://www.metso.com/fi/" target="_blank">Neles</a></p>
+          <p>Yrityksen kotisivut: <a href="https://www.metso.com/fi/" target="_blank" title="Linkki metson kotisivulle">Neles</a></p>
         </div>
         <div className="vaatimukset">
           <h2>Yrityksen vaatimukset</h2>
