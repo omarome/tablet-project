@@ -83,3 +83,70 @@
 p {
   font-size: 18px;
 }
+.crossfade > figure {
+  animation: imageAnimation 30s linear infinite 0s;
+  backface-visibility: hidden;
+  background-size: cover;
+  background-position: center center;
+  color: transparent;
+  height: 100%;
+  left: 0px;
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  z-index: 0;
+}
+
+.crossfade > figure:nth-child(1) { background-image: url('../src/media/Koneasentaja/koneenasentaja_bg.jpg'); }
+
+.crossfade > figure:nth-child(2) {
+animation-delay: 6s;
+background-image: url('../src/media/Koneasentaja/koneenasentaja_bg.jpg');
+}
+
+.crossfade > figure:nth-child(3) {
+animation-delay: 12s;
+background-image: url('../src/media/Koneasentaja/koneenasentaja_bg.jpg');
+}
+
+.crossfade > figure:nth-child(4) {
+animation-delay: 18s;
+background-image: url('../src/media/Koneasentaja/koneenasentaja_bg.jpg');
+}
+
+.crossfade > figure:nth-child(5) {
+animation-delay: 24s;
+background-image: url('../src/media/Koneasentaja/koneenasentaja_bg.jpg');
+}
+
+
+.background {
+  
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow-y: visible;
+  overflow-x: hidden;
+  background-repeat: repeat;
+  backface-visibility: hidden;
+  animation:slideBg 20s linear infinite 0s;
+  animation-timing-function: easy-in-out;
+}
+@keyframes slideBg{
+  0%{
+    background-image: url('../src/media/koneistaja/_OMN2642_1.jpg');
+  }
+  25%{
+    background-image: url('../src/media/koneistaja/_OMN2645_1.jpg');
+  }
+  50%{
+    background-image:url('../src/media/koneistaja/_OMN2656_1.jpg')
+  }
+  75%{
+    background-image: url('../src/media/koneistaja/_OMN2663.JPG');
+  }
+  100%{
+    background-image: url('../src/media/koneistaja/_OMN2672.jpg');
+  }
+}
