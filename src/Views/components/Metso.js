@@ -7,9 +7,7 @@ import ReactPlayer from "react-player";
 class Metso extends Component {
 
   state = {
-
     company: []
-
   }
 
   componentDidMount() {
@@ -19,16 +17,18 @@ class Metso extends Component {
   getCompany = () => {
     fetch("/metso/")
       .then(response => response.json())
-      .then(response => this.setState({ company: response.data }))
+      .then(response => this.setState({ company: response.data[0] }))
+      .then(data => console.log(data))
       .catch(error => console.log(error))
 
   }
 
   render() {
+    const { company } = this.state;
     return (
       <div className="container-fluid">
 
-        <h1 className="HeaderFont display-3 mt-4">Neles</h1>
+        <h1 className="HeaderFont display-3 mt-4">{company.name}</h1>
         <div className="row mt-5">
           <div className="col-md-4 offset-md-1">
             <h2 className="HeaderFont mt-3 ">Infoa yrityksestä</h2>
