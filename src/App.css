@@ -52,7 +52,8 @@
   font-weight: bold;
   font-size: 20px;
   text-align: center;
-  width: 40%;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .kotisivu {
@@ -61,6 +62,7 @@
   font-size: 20px;
   top: 20px;
   right: 20px;
+  text-align: right;
 }
 
 .MintColoredBorder {
@@ -149,4 +151,27 @@ background-image: url('../src/media/Koneasentaja/koneenasentaja_bg.jpg');
   100%{
     background-image: url('../src/media/koneistaja/_OMN2672.jpg');
   }
+}
+
+.Infoay li {
+  text-align: left;
+}
+
+div {
+  border-style: dotted;
+  border-width: 0px;
+}
+
+.Main {
+  background-image: url("./media/Venttiili2.PNG"), url("./media/Venttiili3.PNG");
+  background-repeat: no-repeat;
+  background-position: 200px 600px, 1270px 650px;
+  background-size: auto, 15%;
+}
+
+.kontaktit {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0 auto;
+  text-align: left;
 }
