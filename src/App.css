@@ -80,7 +80,7 @@
 
 .HeaderFont {
   font-family: Arial;
-  font-weight: bold;
+  font-weight: black;
 }
 p {
   font-size: 18px;
@@ -174,4 +174,8 @@ div {
   font-size: 20px;
   margin: 0 auto;
   text-align: left;
+}
+
+.LinkText {
+  color: #D44404;
 }

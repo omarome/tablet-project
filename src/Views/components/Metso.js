@@ -6,9 +6,7 @@ import ReactPlayer from "react-player";
 class Metso extends Component {
 
   state = {
-
     company: []
-
   }
 
   componentDidMount() {
@@ -19,6 +17,7 @@ class Metso extends Component {
     fetch("/metso/")
       .then(response => response.json())
       .then(response => this.setState({ company: response.data[0] }))
+      .then(data => console.log(data))
       .catch(error => console.log(error))
 
   }
@@ -28,7 +27,7 @@ class Metso extends Component {
     return (
       <div className="Main container-fluid">
 
-        <h1 className="header HeaderFont display-3 mt-4">Neles Finland</h1>
+        <h1 className="HeaderFont display-3 mt-4">{company.name}</h1>
         <div className="row mt-5">
           <div className="Lista col-md-4 offset-md-1">
             <h2 className="HeaderFont mt-3 ">Infoa yrityksestä</h2>
@@ -71,12 +70,12 @@ class Metso extends Component {
         </div>
 
         <div className="kotisivu">
-          <p>Yrityksen kotisivut: <a href="https://www.metso.com/fi/" target="_blank">Neles Finland</a></p>
+          <p>Yrityksen kotisivut: <a className="LinkText" href="https://www.metso.com/fi/" target="_blank">Neles Finland</a></p>
         </div>
         <div className="kontaktit col-md-4">
           <p>Yrityksen yhteystiedot: {company.address}, {company.contactperson}, {company.number}</p>
         </div>
-      </div>
+      </div>           
     );
   }
 }

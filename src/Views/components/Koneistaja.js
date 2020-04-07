@@ -26,7 +26,7 @@ class Koneistaja extends Component {
 
         const companyList = companies.map((company) =>
          <li className="list-group-item list-group-item-action" key={company.id}>
-             <Link to= {"/"+company.name}>{company.name}</Link>
+             <Link className="LinkText" to= {"/"+company.name}>{company.name}</Link>
          </li> 
         );
         
@@ -34,7 +34,7 @@ class Koneistaja extends Component {
         <div className="container-fluid">  
         <h1 className= "HeaderFont display-3 mt-4">Koneistaja</h1>
          <div className="row mt-5">
-           <div className="col-md-4 offset-md-1 mt-3">
+           <div className="col-md-4 offset-md-1 mt-4">
             <h2 className= "HeaderFont mb-3">Töitä tarjoavat yritykset</h2>
              <ul className="list-group ">
                {companyList}
@@ -49,7 +49,7 @@ class Koneistaja extends Component {
             </div>  
          </div>  
        <div className="col-md-4 offset-md-7 mt-5 mb-3">
-          <h4 className= "HeaderFont">Tutkinnon-osan vaatimukset</h4>
+          <h2 className= "HeaderFont">Tutkinnon-osan vaatimukset</h2>
             <div className="MintColoredBorder">
               <p className="HeaderFont mt-2"> 
               Opiskelija osaa: 
