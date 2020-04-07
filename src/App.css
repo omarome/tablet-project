@@ -78,7 +78,7 @@
 
 .HeaderFont {
   font-family: Arial;
-  font-weight: bold;
+  font-weight: black;
 }
 p {
   font-size: 18px;
@@ -149,4 +149,8 @@ background-image: url('../src/media/Koneasentaja/koneenasentaja_bg.jpg');
   100%{
     background-image: url('../src/media/koneistaja/_OMN2672.jpg');
   }
+}
+
+.LinkText {
+  color: #D44404;
 }

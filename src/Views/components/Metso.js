@@ -55,7 +55,7 @@ class Metso extends Component {
         </div>
         
         <div className="kotisivu">
-           <p>Yrityksen kotisivut: <a href="https://www.metso.com/fi/" target="_blank">Neles</a></p>
+           <p>Yrityksen kotisivut: <a className="LinkText" href="https://www.metso.com/fi/" target="_blank">Neles</a></p>
         </div>           
       </div>
     );
