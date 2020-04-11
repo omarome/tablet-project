@@ -53,7 +53,7 @@ class Planmeca extends Component {
           </div>
           
           <div className="kotisivu">
-             <p>Yrityksen kotisivut: <a href="https://www.planmeca.com/fi/" target="_blank">Planmeca</a></p>
+             <p>Yrityksen kotisivut: <a className="LinkText" href="https://www.planmeca.com/fi/" target="_blank">Planmeca</a></p>
           </div>           
         </div>
       );

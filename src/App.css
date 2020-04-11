@@ -43,7 +43,8 @@
   font-weight: bold;
   font-size: 20px;
   text-align: center;
-  width: 40%;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .kotisivu {
@@ -52,6 +53,7 @@
   font-size: 20px;
   top: 20px;
   right: 20px;
+  text-align: right;
 }
 
 .MintColoredBorder {
@@ -69,7 +71,7 @@
 
 .HeaderFont {
   font-family: Arial;
-  font-weight: bold;
+  font-weight: black;
 }
 p {
   font-size: 18px;
@@ -136,4 +138,24 @@ p {
   100%{
     background-image: url('../src/media/koneistaja/_OMN2672.jpg');
   }
+}
+
+.Infoay li {
+  text-align: left;
+}
+
+div {
+  border-style: dotted;
+  border-width: 0px;
+}
+
+.kontaktit {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.LinkText {
+  color: #D44404;
 }
