@@ -162,13 +162,6 @@ div {
   border-width: 0px;
 }
 
-.Main {
-  background-image: url("./media/Venttiili2.PNG"), url("./media/Venttiili3.PNG");
-  background-repeat: no-repeat;
-  background-position: 200px 600px, 1270px 650px;
-  background-size: auto, 15%;
-}
-
 .kontaktit {
   font-weight: bold;
   font-size: 20px;
