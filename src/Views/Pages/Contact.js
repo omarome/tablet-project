@@ -3,10 +3,10 @@ import React from 'react'
 export default function Contact(){
 
     return(
-        <div>
+        <div className ="textParagraph">
            <h1>Puhelinvaihde</h1>
            <h2>Puhelinvaihde aina auttaa löytämään etsimääsi palveluun.</h2>
-           <p>
+           <p >
 p. 09 231 999
 Palvelut opiskelijoille sekä tietoa opiskelijaksi hakevalle löytyy InfoOmniasta
 info@omnia.fi, p. 09 2319 8360.

@@ -12,7 +12,9 @@ class Koneistaja extends Component {
 
     componentDidMount() {
         this.getCompanies();
+        
     }
+    
 
     getCompanies = () => {
         fetch("/koneistaja/")

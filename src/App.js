@@ -15,6 +15,7 @@ import Levyseppähitsaaja from './Views/components/Levyseppähitsaaja'
 import Koneistaja from './Views/components/Koneistaja'
 import Metso from './Views/components/Metso'
 import Planmeca from './Views/components/Planmeca'
+
 function App() {
   return (
     <div className="App">
@@ -24,11 +25,13 @@ function App() {
 
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
-                <Link className="navbar-brand" to="/">
-                  <img src={require('./media/OMNIA_Black_RGB.png')} width="40" style={{ marginRight: '9px' }} height="40"
-                    alt="omnia logo" />
-                            Tablet Project
+                <Link >
+                    <img src={require('./media/OMNIA_Black_RGB.png')}
+                     className="project-logo" 
+                     alt="omnia logo"
+                     onClick={() =>window.location.href = 'https://www.omnia.fi'}/>   
                 </Link>
+               
               </li>
               <li className="nav-item active">
                 <Link className="nav-link" to="/">Etusivu</Link>
