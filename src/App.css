@@ -169,3 +169,11 @@ div {
 .LinkText {
   color: #D44404;
 }
+
+.vaatimukset li {
+  text-align: left;
+}
+
+.vaatimukset > ul {
+  display: inline-block;
+}
