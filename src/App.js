@@ -26,10 +26,10 @@ function App() {
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
                 <Link >
-                    <img src={require('./media/OMNIA_Black_RGB.png')}
+                    <img src={require('./media/OMNIA_Black_RGB.png')} 
                      className="project-logo" 
                      alt="omnia logo"
-                     onClick={() =>window.location.href = 'https://www.omnia.fi'}/>   
+                     onClick={() =>window.open('https://www.omnia.fi', "_blank")  }  />   
                 </Link>
                
               </li>
