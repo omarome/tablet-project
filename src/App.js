@@ -40,7 +40,7 @@ function App() {
                 <Link className="nav-link" to="/contact">Ota yhteyttä</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/about">Meistä</Link>
+                <Link className="nav-link" to="/about">Tietoa meistä</Link>
               </li>
             </ul>
 
