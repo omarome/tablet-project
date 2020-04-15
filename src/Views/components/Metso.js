@@ -59,7 +59,7 @@ class Metso extends Component {
               <ul>
                 <li>Koneistuksen perusosaaminen</li>
                 <li>Koneasennuksen perusosaaminen</li>
-                <li>Lisää infoa: {company.contactperson}, {company.number},  {company.address}</li>
+                <li>Lisätietoa antaa {company.contactperson}, {company.number},  {company.address}</li>
               </ul>
             </div>
           </div>
