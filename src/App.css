@@ -159,3 +159,19 @@ div {
 .LinkText {
   color: #D44404;
 }
+
+.Main {
+  background-image: url("./media/Venttiili2.PNG"), url("./media/Venttiili3.PNG");
+  background-repeat: no-repeat;
+  background-position: 200px 600px, 1270px 650px;
+  background-size: auto, 15%;
+  background-attachment: absolute;
+}
+
+.vaatimukset li {
+  text-align: left;
+}
+
+.vaatimukset > ul {
+  display: inline-block;
+}

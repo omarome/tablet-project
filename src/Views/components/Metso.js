@@ -55,7 +55,13 @@ class Metso extends Component {
 
           <div className="vaatimukset col-md-5 offset-1 mt-4">
             <h2 className="HeaderFont ">Yrityksen osaamisvaatimukset</h2>
-            <div className="eka"><p>"Yritykseen vaaditaan..."</p></div>
+            <div className="vaatimukset">
+              <ul>
+                <li>Koneistuksen perusosaaminen</li>
+                <li>Koneasennuksen perusosaaminen</li>
+                <li>Lisää infoa: {company.contactperson}, {company.number},  {company.address}</li>
+              </ul>
+            </div>
           </div>
 
         </div>
@@ -72,10 +78,7 @@ class Metso extends Component {
         <div className="kotisivu">
           <p>Yrityksen kotisivut: <a className="LinkText" href="https://www.metso.com/fi/" target="_blank">Neles Finland</a></p>
         </div>
-        <div className="kontaktit col-md-4">
-          <p>Yrityksen yhteystiedot: {company.address}, {company.contactperson}, {company.number}</p>
-        </div>
-      </div>           
+      </div>
     );
   }
 }

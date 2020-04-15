@@ -69,7 +69,7 @@ function App() {
             <Route path="/koneistaja">
               <Koneistaja />
             </Route>
-            <Route path="/Metso Oy">
+            <Route path="/Neles Finland">
               <Metso />
             </Route>
             <Route path="/Planmeca Oy">
