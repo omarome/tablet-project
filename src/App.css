@@ -127,6 +127,7 @@ p {
   position: absolute;
   overflow-y: visible;
   overflow-x: hidden;
+  background-image: url('../src/media/koneistaja/_OMN2663.JPG');
   background-repeat: repeat;
   backface-visibility: hidden;
   animation:slideBg 20s linear infinite 0s;
@@ -141,12 +142,6 @@ p {
   }
   50%{
     background-image:url('../src/media/koneistaja/_OMN2656_1.jpg')
-  }
-  75%{
-    background-image: url('../src/media/koneistaja/_OMN2663.JPG');
-  }
-  100%{
-    background-image: url('../src/media/koneistaja/_OMN2672.jpg');
   }
 }
 
