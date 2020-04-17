@@ -17,7 +17,7 @@ export default function Contact(){
            <h2>Opettajat</h2>
             <br></br>
            <ui>
-                <li>Jari Engström, p.046 599 7433</li>
+                <li> Jukka Kemppainen, p. 040 536 8315</li>
                 <li>Pekka Juutilainen, p. 034 824 3454</li>
                 <li>Juha Rautamies, p. 040 126 7659</li>
                 <li>Uki Takkinen, p. 046 851 6221</li>
