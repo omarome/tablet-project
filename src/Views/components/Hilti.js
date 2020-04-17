@@ -18,7 +18,7 @@ class Hilti extends Component {
      getCompany = () => {
          fetch("/hilti/")
          .then(response => response.json())
-         .then(response => this.setState({ company: response.data }))
+         .then(response => this.setState({ company: response.data[0] }))
          .catch(error => console.log(error))
 
      }
@@ -41,10 +41,6 @@ class Hilti extends Component {
                     <li></li>
                     <li></li>
                     <li></li>
-                    <ul>
-                      <li>Ato, Stock, Special & heavy</li>
-                      <li></li>
-                    </ul>
                     <li>Lisätietoa antaa {company.contactperson}, {company.number},  {company.address}</li>
                   </ul>
                 </div>
@@ -66,13 +62,14 @@ class Hilti extends Component {
             <div className="Mediaplayer col-md-4 offset-md-1 mt-5">
               <h2 className="HeaderFont">Yrityksen esittelyvideo</h2>
               <ReactPlayer
-                url=""
+                url="https://www.youtube.com/watch?v=g91cYBnkUJY&t=8s"
                 width="100%"
                 controls={true}
                 alt="Esittelyvideo yrityksestä" />
             </div>
     
             <div className="kotisivu">
+            <p>Yrityksen kotisivut: <a className="LinkText" href="https://www.hilti.fi/" target="_blank">{company.name}</a></p>
             </div>
           </div>
         );

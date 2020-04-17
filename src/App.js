@@ -15,6 +15,23 @@ import Levyseppähitsaaja from './Views/components/Levyseppähitsaaja'
 import Koneistaja from './Views/components/Koneistaja'
 import Metso from './Views/components/Metso'
 import Planmeca from './Views/components/Planmeca'
+import Abb from './Views/components/Abb'
+import Erikkilä from './Views/components/Erikkilä'
+import Hellmaninkonepaja from './Views/components/Hellmaninkonepaja'
+import Hilti from './Views/components/Hilti'
+import Isevat from './Views/components/Isevat'
+import Konepajamäkelin from './Views/components/Konepajamäkelin'
+import Levanto from './Views/components/Levanto'
+import Temet from './Views/components/Temet'
+import Mesvac from './Views/components/Mesvac';
+
+
+
+
+
+
+
+
 
 function App() {
   return (
@@ -74,6 +91,33 @@ function App() {
             </Route>
             <Route path="/Planmeca Oy">
               <Planmeca />
+            </Route>
+            <Route path="/ABB Oy">
+              <Abb />
+            </Route>
+            <Route path="/Erikkilä Oy">
+              <Erikkilä />
+            </Route>
+            <Route path="/Hellmanin Konepaja Oy">
+              <Hellmaninkonepaja />
+            </Route>
+            <Route path="/Hilti Oy">
+              <Hilti />
+            </Route>
+            <Route path="/Isevat Oy">
+              <Isevat />
+            </Route>
+            <Route path="/Konepaja Mäkelin Oy">
+              <Konepajamäkelin />
+            </Route>
+            <Route path="/Levanto">
+              <Levanto />
+            </Route>
+            <Route path="/Mesvac">
+              <Mesvac />
+            </Route>
+            <Route path="/Temet Oy">
+              <Temet />
             </Route>
           </Switch>
         </div>
