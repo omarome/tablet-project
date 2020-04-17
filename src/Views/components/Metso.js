@@ -48,6 +48,7 @@ class Metso extends Component {
                   <li>Ato, Stock, Special & heavy</li>
                   <li>Lisäksi myös varaosa ja tehtaiden välisen toimitukset kuuluvat koneistamon vastuualueisiin</li>
                 </ul>
+                <li>Lisätietoa antaa {company.contactperson}, {company.number},  {company.address}</li>
               </ul>
             </div>
           </div>
@@ -59,7 +60,6 @@ class Metso extends Component {
               <ul>
                 <li>Koneistuksen perusosaaminen</li>
                 <li>Koneasennuksen perusosaaminen</li>
-                <li>Lisätietoa antaa {company.contactperson}, {company.number},  {company.address}</li>
               </ul>
             </div>
           </div>
