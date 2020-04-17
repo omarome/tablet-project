@@ -48,7 +48,7 @@ class Koneasentaja extends Component {
                 </div>  
              </div>  
            <div className="col-md-4 offset-md-7 mt-5 mb-4">
-              <h2 className= "HeaderFont mb-2">Tutkinnon-osan vaatimukset</h2>
+              <h2 className= "HeaderFont mb-2">Tutkinnon osan vaatimukset</h2>
                 <div className="MintColoredBorder">
                   <p className="HeaderFont mt-2"> 
                   Opiskelija osaa: 
