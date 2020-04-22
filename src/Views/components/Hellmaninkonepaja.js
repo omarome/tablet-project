@@ -62,6 +62,7 @@ class Hellmaninkonepaja extends Component {
             <div className="Mediaplayer col-md-4 offset-md-1 mt-5">
               <h2 className="HeaderFont">Yrityksen esittelyvideo</h2>
               <ReactPlayer
+                className="mb-4"
                 url="https://www.youtube.com/watch?v=g91cYBnkUJY&t=8s"
                 width="100%"
                 controls={true}

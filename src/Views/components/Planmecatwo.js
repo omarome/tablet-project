@@ -67,6 +67,7 @@ class Planmecatwo extends Component {
             <div className="Mediaplayer col-md-4 offset-md-1 mt-5">
               <h2 className="HeaderFont">Yrityksen esittelyvideo</h2>
               <ReactPlayer
+                className="mb-4"
                 url=""
                 width="100%"
                 controls={true}

@@ -61,6 +61,7 @@ class Abb extends Component {
             <div className="Mediaplayer col-md-4 offset-md-1 mt-5">
               <h2 className="HeaderFont">Yrityksen esittelyvideo</h2>
               <ReactPlayer
+                className="mb-4"
                 url="https://www.youtube.com/watch?v=g91cYBnkUJY&t=8s"
                 width="100%"
                 controls={true}
@@ -68,7 +69,7 @@ class Abb extends Component {
             </div>
     
             <div className="kotisivu">
-              <p>Yrityksen kotisivut: <a className="LinkText" href="https://new.abb.com/fi" target="_blank">Abb</a></p>
+              <p>Yrityksen kotisivut: <a className="LinkText" href="https://new.abb.com/fi" target="_blank">ABB</a></p>
             </div>
           </div>
         );
