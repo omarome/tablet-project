@@ -3,7 +3,7 @@ import React from 'react'
 export default function Contact(){
 
     return(
-        <div className ="textParagraph">
+        <div className ="textParagraphContact ">
            <h1 >Kone- ja tuotantotekniikan perustutkinto, koneistaja, levyseppähitsaaja ja asentaja</h1>
            <br>
            </br>
