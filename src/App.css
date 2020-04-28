@@ -172,3 +172,43 @@ div {
 .vaatimukset > ul {
   display: inline-block;
 }
+
+.textParagraph {
+  text-align: center;
+  display: block;
+}
+
+.textParagraph h1 {
+  text-align: left;
+}
+
+.lista1 {
+  font-size: 18px;
+  width: 30%;
+  float: right;
+}
+.lista1 li {
+  text-align: left;
+}
+
+.lista1 > ul {
+  display: inline-block;
+}
+
+.lista1 h1 {
+  text-align: center;
+}
+
+.lista2 {
+  font-size: 18px;
+  float: left;
+  width: 30%;
+}
+
+.lista2 > ul {
+  display: inline-block;
+}
+
+.lista2 li {
+  text-align: left;
+}
