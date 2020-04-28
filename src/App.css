@@ -212,3 +212,11 @@ div {
 .lista2 li {
   text-align: left;
 }
+
+.vaatimukset h3 {
+  text-align: left;
+}
+
+a {
+  text-decoration: underline;
+}
