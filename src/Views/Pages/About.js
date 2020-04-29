@@ -5,11 +5,6 @@ export default function About() {
 
     return (
         <div className="textParagraph">
-            <ModalImage className="kuvakotu"
-                small={require('../../media/kotu.PNG')}
-                large={require('../../media/kotu.PNG')}
-                alt="Hello World!"
-            />
             <div className="lista1">
                 <h1>Työelämälähtöinen</h1>
                 <ul>
@@ -32,6 +27,11 @@ export default function About() {
                     <li>Koulutussopimuksen rinnalle oppisopimus</li>
                 </ul>
             </div>
+            <ModalImage className="kuvakotu"
+                small={require('../../media/kotu.PNG')}
+                large={require('../../media/kotu.PNG')}
+                alt="Hello World!"
+            />
 
         </div>
     )

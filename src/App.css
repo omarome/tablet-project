@@ -178,14 +178,21 @@ div {
   display: block;
 }
 
+.textParagraph > div {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .textParagraph h1 {
   text-align: left;
 }
 
-.lista1 {
+.textParagraph .lista1 {
   font-size: 18px;
   width: 30%;
   float: right;
+  margin-top: 50px;
 }
 .lista1 li {
   text-align: left;
@@ -199,10 +206,11 @@ div {
   text-align: center;
 }
 
-.lista2 {
+.textParagraph .lista2 {
   font-size: 18px;
   float: left;
   width: 30%;
+  margin-top: 50px;
 }
 
 .lista2 h1 {
@@ -222,5 +230,5 @@ div {
 }
 
 .kuvakotu {
-  width: 30%;
+  width: 100%;
 }
