@@ -30,7 +30,7 @@ export default function About() {
             <ModalImage className="kuvakotu"
                 small={require('../../media/kotu.PNG')}
                 large={require('../../media/kotu.PNG')}
-                alt="Hello World!"
+                alt="Kone- ja tuotantotekniikan tutkinnon osat"
             />
 
         </div>
