@@ -205,6 +205,10 @@ div {
   width: 30%;
 }
 
+.lista2 h1 {
+  text-align: center;
+}
+
 .lista2 > ul {
   display: inline-block;
 }
@@ -217,6 +221,6 @@ div {
   text-align: left;
 }
 
-a {
-  text-decoration: underline;
+.kuvakotu {
+  width: 30%;
 }

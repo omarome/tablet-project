@@ -1,13 +1,17 @@
 import React from 'react'
+import ModalImage from "react-modal-image";
 
 export default function About() {
 
     return (
-        <div className="textParagraph ">
-            <h1 style={{ textAlign: 'center' }}>Kotu</h1>
-            <img src={require('../../media/kotu.PNG')} alt="Kotu osaamispisteet" />
+        <div className="textParagraph">
+            <ModalImage className="kuvakotu"
+                small={require('../../media/kotu.PNG')}
+                large={require('../../media/kotu.PNG')}
+                alt="Hello World!"
+            />
             <div className="lista1">
-                <h1>Työelämätahtoinen</h1>
+                <h1>Työelämälähtöinen</h1>
                 <ul>
                     <li>Suunnittelemme koulutusten sisällöt yhteistyössä <br></br> työelämänkanssa - oppijoita kuullen.</li>
                     <li>Tarjoamme ratkaisuja työyhteisön osaamisen <br></br> kehittämiseen.</li>
@@ -18,17 +22,15 @@ export default function About() {
                 </ul>
             </div>
             <div className="lista2">
-                <div className="otsikko">
-                    <h1>Yritysyhteistyö Kone- ja <br></br> tuotantotekniikan alalla</h1>
-                    <ul>
-                        <li>Työvoimatarpeen kartoitus</li>
-                        <li>Koulutuksen työelämävastaavuus, <br></br>painopistealueet opetuksessa</li>
-                        <li>Kone- ja laitekannan uusiminen</li>
-                        <br></br>
-                        <li>Työelämässä oppiminen ja näytöt työpaikalla</li>
-                        <li>Koulutussopimuksen rinnalle oppisopimus</li>
-                    </ul>
-                </div>
+                <h1>Yritysyhteistyö</h1>
+                <ul>
+                    <li>Työvoimatarpeen kartoitus</li>
+                    <li>Koulutuksen työelämävastaavuus, <br></br>painopistealueet opetuksessa</li>
+                    <li>Kone- ja laitekannan uusiminen</li>
+                    <br></br>
+                    <li>Työelämässä oppiminen ja näytöt työpaikalla</li>
+                    <li>Koulutussopimuksen rinnalle oppisopimus</li>
+                </ul>
             </div>
 
         </div>

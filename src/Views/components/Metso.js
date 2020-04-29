@@ -58,7 +58,7 @@ class Metso extends Component {
             <h2 className="HeaderFont ">Yrityksen osaamisvaatimukset</h2>
             <div className="vaatimukset">
               <ul>
-                <h3>Koneistus:</h3>
+                <p>Koneistus:</p>
                 <li>ymmärrys työturvallisuudesta</li>
                 <li>perusosaaminen mittavälineiden osalta</li>
                 <li>osaaminen kuvien lukuun (geometriset toleranssit jne)</li>
@@ -66,16 +66,15 @@ class Metso extends Component {
                 <li>perusmateriaalituntemus</li>
                 <li>nc-ohjattujen koneiden käyttö</li>
                 <li>huolellisuus</li>
-                <li><u><b>Tärkeimpänä: oma-aloitteisuus ja reipas asenne.</b></u></li>
+                <li><b>Tärkeimpänä: oma-aloitteisuus ja reipas asenne.</b></li>
                 <br></br>
-                <br></br>
-                <h3>Kokoonpano:</h3>
+                <p>Kokoonpano:</p>
                 <li>ymmärrys työturvallisuudesta</li>
-                <li>osaaminen komponenttien kokoonpantavuudesta – mekaaninen hahmoituskyky</li>
+                <li>osaaminen komponenttien kokoonpantavuudesta – mekaaninen hahmotuskyky</li>
                 <li>perusosaaminen mittavälineiden osalta</li>
                 <li>osaaminen kuvien lukuun (geometriset toleranssit jne)</li>
                 <li>huolellisuus</li>
-                <li><u><b>Tärkeimpänä: oma-aloitteisuus ja reipas asenne.</b></u></li>
+                <li><b>Tärkeimpänä: oma-aloitteisuus ja reipas asenne.</b></li>
               </ul>
             </div>
           </div>
