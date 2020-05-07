@@ -32,7 +32,6 @@ export default function About() {
                 large={require('../../media/kotu.PNG')}
                 alt="Kone- ja tuotantotekniikan tutkinnon osat"
             />
-
         </div>
     )
 }

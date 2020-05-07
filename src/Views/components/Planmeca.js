@@ -64,7 +64,7 @@ class Planmeca extends Component {
             <h2 className="HeaderFont">Yrityksen esittelyvideo</h2>
             <ReactPlayer
               className="mb-4"
-              url="https://www.youtube.com/watch?v=g91cYBnkUJY&t=8s"
+              url="https://vimeo.com/254490075"
               width="100%"
               controls={true}
               alt="Esittelyvideo yrityksestä" />
