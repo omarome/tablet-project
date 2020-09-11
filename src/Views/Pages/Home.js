@@ -43,6 +43,9 @@ export default function Home() {
                         <p className="card-text ">Levyseppähitsaaja on kädentaitaja, joka hallitsee levytyöt, hitsauksen ja erilaiset metallirakennetyöt. Nimensä mukaisesti levyseppähitsaaja työstää ja hitsaa levyä, joka voi käyttötarkoituksen mukaan olla aivan ohutta tai hyvin paksua.</p>
                     </div>
                     <div className="card-body">
+                        <div className="card-body">
+                            <Link to="/Levyseppahitsaajapolku" className="btn btn-dark" style={{borderRadius:'0'}}>Levyseppähitsaajan polku</Link>
+                        </div>
                         <Link to="/levyseppähitsaaja" className="btn btn-dark" style={{borderRadius:'0'}}>Lue lisää tästä ammattinimikkeestä</Link>
                     </div>
                 </div>

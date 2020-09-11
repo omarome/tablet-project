@@ -23,7 +23,8 @@ import Isevat from './Views/components/Isevat'
 import Konepajamäkelin from './Views/components/Konepajamäkelin'
 import Levanto from './Views/components/Levanto'
 import Temet from './Views/components/Temet'
-import Mesvac from './Views/components/Mesvac';
+import Mesvac from './Views/components/Mesvac'
+import Levyseppahitsaajapolku from './Views/components/Levyseppahitsaajapolku';
 
 
 
@@ -73,6 +74,9 @@ function App() {
             </Route>
             <Route exact path="/">
               <Home />
+            </Route>
+            <Route path="/Levyseppahitsaajapolku">
+              <Levyseppahitsaajapolku />
             </Route>
             <Route path="/koneasenataja">
               <Koneasenataja />

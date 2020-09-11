@@ -33,7 +33,7 @@ class Metso extends Component {
             <h2 className="HeaderFont mt-3 ">Infoa yrityksestä</h2>
             <div className="Infoay">
               <ul>
-                <li>Metso Flow Control OY -> Neles Finland OY</li>
+                <li>Metso Flow Control OY -&gt; Neles Finland OY</li>
                 <li>Itsenäinen pörssiyhtiö 1.7.2020 alkaen</li>
                 <li>Koneistamo jaettu kolmeen osioon, tiiviste-, suljin- ja
                 raskaskoneistus </li>

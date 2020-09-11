@@ -76,6 +76,10 @@
 p {
   font-size: 18px;
 }
+
+a {
+  font-size: 18px;
+}
 .crossfade > figure {
   animation: imageAnimation 30s linear infinite 0s;
   backface-visibility: hidden;
@@ -231,4 +235,84 @@ div {
 
 .kuvakotu {
   width: 100%;
+}
+
+.polkulista li {
+  text-align: left;
+  margin-left: 25px;
+}
+
+.polkulista ul {
+  text-align: left;
+}
+
+.polkuvuosi {
+  font-weight: bold;
+  font-style: italic;
+  text-align: left;
+}
+
+.polkulista {
+  font-size: 18px;
+}
+
+.yto {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.polkulista a {
+  text-decoration: underline;
+}
+
+.valinnainen {
+  font-weight: bold;
+}
+
+.hiddenlist {
+  list-style-type: none;
+}
+
+.lista {
+  list-style-type: disc;
+}
+
+
+/*  style1 = boldItalic 
+    style2 = underlineItalic
+    style3 = bold
+    style4 = underlineItalicbold
+*/
+#style1 {
+  font-weight: bold;
+  font-style: italic;
+}
+
+#style2 {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.keskitetty {
+  width: 33%;
+  margin: auto;
+}
+
+#style3 {
+  font-weight: bold;
+}
+
+#style4 {
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.osp {
+  text-align: left;
+  text-decoration: underline;
+}
+
+.valinnaiset {
+  text-align: left;
 }
