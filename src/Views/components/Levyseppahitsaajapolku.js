@@ -26,7 +26,7 @@ class Levyseppahitsaajapolku extends Component {
                             <p>2. vuosi 30 + 20 + 15 osp</p>
                         </div>
                         <ul>
-                            <li><a className="LinkText" href="https://eperusteet.opintopolku.fi/#/fi/esitys/3855075/reformi/tutkinnonosat/3870029" target="_blank">2.11. Hitsaus- ja levytyöt, 30 osp</a> (pakollinen tutkinnonosa) sdf fklsadjf lkjasdölkj flkjasdlökf jösladkjf lökasölfjd </li>
+                            <li><a className="LinkText" href="https://eperusteet.opintopolku.fi/#/fi/esitys/3855075/reformi/tutkinnonosat/3870029" target="_blank">2.11. Hitsaus- ja levytyöt, 30 osp</a> (pakollinen tutkinnonosa)</li>
                             <li className="hiddenlist">15 osp suoritetaan tutkinnon osaan soveltuvalla työpaikalla</li>
                             <li className="hiddenlist" id="style1">Ammatillinen valinnainen 20 osp</li>
                             <li className="hiddenlist" id="style2">Yhteiset tutkinnon osat 20 osp</li>
