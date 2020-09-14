@@ -30,7 +30,7 @@ class Metso extends Component {
         <h1 className="HeaderFont display-3 mt-4">{company.name}</h1>
         <div className="row mt-5">
           <div className="Lista col-md-4 offset-md-1">
-            <h2 className="HeaderFont mt-3 ">Infoa yrityksestä</h2>
+            <div className="otsikkoyritykset"><h2 className="HeaderFont mt-3 ">Infoa yrityksestä</h2></div>
             <div className="Infoay">
               <ul>
                 <li>Metso Flow Control OY -&gt; Neles Finland OY</li>
@@ -55,10 +55,10 @@ class Metso extends Component {
 
 
           <div className="vaatimukset col-md-5 offset-1 mt-4">
-            <h2 className="HeaderFont ">Yrityksen osaamisvaatimukset</h2>
+            <div className="osavaatimukset"><h2 className="HeaderFont ">Yrityksen osaamisvaatimukset</h2></div>
             <div className="vaatimukset">
+            <div className="osavaatimusala"><p>Koneistus:</p></div>
               <ul>
-                <p>Koneistus:</p>
                 <li>ymmärrys työturvallisuudesta</li>
                 <li>perusosaaminen mittavälineiden osalta</li>
                 <li>osaaminen kuvien lukuun (geometriset toleranssit jne)</li>
@@ -67,8 +67,9 @@ class Metso extends Component {
                 <li>nc-ohjattujen koneiden käyttö</li>
                 <li>huolellisuus</li>
                 <li><b>Tärkeimpänä: oma-aloitteisuus ja reipas asenne.</b></li>
-                <br></br>
-                <p>Kokoonpano:</p>
+                </ul>
+                <div className="osavaatimusala"><p>Kokoonpano:</p></div>
+                <ul>
                 <li>ymmärrys työturvallisuudesta</li>
                 <li>osaaminen komponenttien kokoonpantavuudesta – mekaaninen hahmotuskyky</li>
                 <li>perusosaaminen mittavälineiden osalta</li>

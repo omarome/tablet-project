@@ -16,6 +16,7 @@ import Koneistaja from './Views/components/Koneistaja'
 import Metso from './Views/components/Metso'
 import Planmeca from './Views/components/Planmeca'
 import Abb from './Views/components/Abb'
+import Amak from './Views/components/Amak'
 import Erikkilä from './Views/components/Erikkilä'
 import Hellmaninkonepaja from './Views/components/Hellmaninkonepaja'
 import Hilti from './Views/components/Hilti'
@@ -24,7 +25,10 @@ import Konepajamäkelin from './Views/components/Konepajamäkelin'
 import Levanto from './Views/components/Levanto'
 import Temet from './Views/components/Temet'
 import Mesvac from './Views/components/Mesvac'
-import Levyseppahitsaajapolku from './Views/components/Levyseppahitsaajapolku';
+import Levyseppahitsaajapolku from './Views/components/Levyseppahitsaajapolku'
+import Koneautomaatioasentajapolku from './Views/components/Koneautomaatioasentajapolku'
+import Koneasentajapolku from './Views/components/Koneasentajapolku'
+import Koneistajapolku from './Views/components/Koneistajapolku';
 
 
 
@@ -81,14 +85,23 @@ function App() {
             <Route path="/koneasenataja">
               <Koneasenataja />
             </Route>
+            <Route path="/Koneasentajapolku">
+              <Koneasentajapolku />
+            </Route>
             <Route path="/koneautomaatioasentaja">
               <Koneautomaatioasentaja />
+            </Route>
+            <Route path="/Koneautomaatioasentajapolku">
+              <Koneautomaatioasentajapolku />
             </Route>
             <Route path="/levyseppähitsaaja">
               <Levyseppähitsaaja />
             </Route>
             <Route path="/koneistaja">
               <Koneistaja />
+            </Route>
+            <Route path="/Koneistajapolku">
+              <Koneistajapolku />
             </Route>
             <Route path="/Neles Finland Oy">
               <Metso />
@@ -99,6 +112,10 @@ function App() {
             <Route path="/ABB Oy">
               <Abb />
             </Route>
+            <Route path="/Amak Oy">
+              <Amak />
+            </Route>
+
             <Route path="/Erikkilä Oy">
               <Erikkilä />
             </Route>

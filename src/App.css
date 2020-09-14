@@ -122,6 +122,10 @@ a {
   margin: 10px 20px 10px 20px;
 }
 
+.cardbutton {
+  margin-bottom: 25px;
+}
+
 
 
 .background {
@@ -171,10 +175,11 @@ div {
 
 .vaatimukset li {
   text-align: left;
+  margin-left: 25px;
 }
 
 .vaatimukset > ul {
-  display: inline-block;
+  text-align: right;
 }
 
 .textParagraph {
@@ -252,6 +257,17 @@ div {
   text-align: left;
 }
 
+.otsikkoyritykset {
+  text-align: left;
+}
+
+.osavaatimukset {
+  text-align: left;
+}
+
+.osavaatimusala {
+  text-align: left;
+}
 .polkulista {
   font-size: 18px;
 }

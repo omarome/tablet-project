@@ -31,7 +31,7 @@ class Planmeca extends Component {
           <h1 className="HeaderFont display-3 mt-4">{company.name}</h1>
           <div className="row mt-5">
             <div className="Lista col-md-4 offset-md-1">
-              <h2 className="HeaderFont mt-3 ">Infoa yrityksestä</h2>
+            <div className="otsikkoyritykset"><h2 className="HeaderFont mt-3 ">Infoa yrityksestä</h2></div>
               <div className="Infoay">
                 <ul>
                   <li></li>
@@ -49,7 +49,7 @@ class Planmeca extends Component {
   
   
             <div className="vaatimukset col-md-5 offset-1 mt-4">
-              <h2 className="HeaderFont ">Yrityksen osaamisvaatimukset</h2>
+            <div className="osavaatimukset"><h2 className="HeaderFont ">Yrityksen osaamisvaatimukset</h2></div>
               <div className="vaatimukset">
                 <ul>
                   <li></li>
