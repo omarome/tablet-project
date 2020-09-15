@@ -259,4 +259,4 @@ app.get("/temet", function(req, response){
     });
 })
 
-app.listen(port, () => console.log("Portti 5000 is working!"));
+app.listen(port, () => console.log("Portti 3000 is working!"));
