@@ -20,16 +20,16 @@ class Koneautomaatioasentajapolku extends Component {
                                 target="_blank">Asennus- ja automaatiotyöt, 10 osp</a> (pakollinen tutkinnonosa)</li>
                             <li><a className="LinkText" href="https://eperusteet.opintopolku.fi/#/fi/esitys/3855075/reformi/tutkinnonosat/3906311"
                                 target="_blank">Valmistustyötehtävissä toimiminen, 25 osp</a> (pakollinen tutkinnonosa)</li>
-                            <li><p className="yto">Yhteiset tutkinnon osat 20 osp</p></li>
+                            <li className="hiddenlist"><p className="yto">Yhteiset tutkinnon osat 20 osp</p></li>
                         </ul>
                         <div className="polkuvuosi">
                             <p>2. vuosi 30 + 20 + 15 osp</p>
                         </div>
                         <ul>
-                            <li><a className="LinkText" href="https://eperusteet.opintopolku.fi/#/fi/esitys/3855075/reformi/tutkinnonosat/3906200" target="_blank">2.11. Koneautomaatioasennus, 30 osp</a> (pakollinen tutkinnonosa)</li>
+                            <li><a className="LinkText" href="https://eperusteet.opintopolku.fi/#/fi/esitys/3855075/reformi/tutkinnonosat/3906200" target="_blank">Koneautomaatioasennus 30 osp</a> (pakollinen tutkinnonosa)</li>
                             <li className="hiddenlist">15 osp suoritetaan tutkinnon osaan soveltuvalla työpaikalla</li>
                             <li className="hiddenlist" id="style1">Ammatillinen valinnainen 20 osp</li>
-                            <li className="hiddenlist" id="style2">Yhteiset tutkinnon osat 20 osp</li>
+                            <li className="hiddenlist" id="style2">Yhteiset tutkinnon osat 15 osp</li>
                         </ul>
                     </div>
                     <br></br>
@@ -37,34 +37,20 @@ class Koneautomaatioasentajapolku extends Component {
                         <p className="valinnaiset" id="style3">Ammatilliset valinnaiset</p>
                     </div>
                     <div className="osp">
-                        <div>
-                            <a className="LinkText" href="https://eperusteet.opintopolku.fi/#/fi/esitys/3855075/reformi/tutkinnonosat/3906422"
-                                target="_blank">2.2. Alumiinin ja ruostumattoman teräksen hitsaus, 20 osp</a>
-                        </div>
-                        <div>
-                            <a className="LinkText" href="https://eperusteet.opintopolku.fi/#/fi/esitys/3855075/reformi/tutkinnonosat/3906208"
-                                target="_blank">2.10. Hitsaus, 20 osp</a>
-                        </div>
-                        <div>
-                            <a className="LinkText" href="https://eperusteet.opintopolku.fi/#/fi/esitys/3855075/reformi/tutkinnonosat/3906201"
-                                target="_blank">2.22. Korjaus- ja asennushitsaus, 20 osp</a>
-                        </div>
-                        <div>
-                            <a className="LinkText" href="https://eperusteet.opintopolku.fi/#/fi/esitys/3855075/reformi/tutkinnonosat/3906204"
-                                target="_blank">2.24. Levyjen CNC-leikkaus, 20 osp</a>
-                        </div>
-                        <div>
-                            <a className="LinkText" href="https://eperusteet.opintopolku.fi/#/fi/esitys/3855075/reformi/tutkinnonosat/3906319"
-                                target="_blank">2.28. Mekanisoitu ja automatisoitu hitsaus, 20 osp</a>
-                        </div>
-                        <div>
-                            <a className="LinkText" href="https://eperusteet.opintopolku.fi/#/fi/esitys/3855075/reformi/tutkinnonosat/3906310"
-                                target="_blank">2.31. Ohutlevytyöt, 20 osp</a>
-                        </div>
-                        <div>
-                            <a className="LinkText" href="https://eperusteet.opintopolku.fi/#/fi/esitys/3855075/reformi/tutkinnonosat/3906318"
-                                target="_blank">2.35. Teräsrakennetyöt, 20 osp </a>
-                        </div>
+                        <a className="LinkText" href="https://eperusteet.opintopolku.fi/#/fi/esitys/3855075/reformi/tutkinnonosat/3906425"
+                            target="_blank">Koneautomaatiojärjestelmien asennustyöt 20 osp</a>
+                        <br></br>
+                        <a className="LinkText" href="https://eperusteet.opintopolku.fi/#/fi/esitys/3855075/reformi/tutkinnonosat/3906205"
+                            target="_blank">Pneumatiikka-asennukset 20 osp</a>
+                        <br></br>
+                        <a className="LinkText" href="https://eperusteet.opintopolku.fi/#/fi/esitys/3855075/reformi/tutkinnonosat/3906421"
+                            target="_blank">Voimayksiköiden ja moottorien asennustyöt 20 osp</a>
+                        <br></br>
+                        <a className="LinkText" href="https://eperusteet.opintopolku.fi/#/fi/esitys/3855075/reformi/tutkinnonosat/3870028"
+                            target="_blank">Robotin käyttö 20 osp</a>
+                        <br></br>
+                        <a className="LinkText" href="https://eperusteet.opintopolku.fi/#/fi/esitys/3855075/reformi/tutkinnonosat/3906201"
+                            target="_blank">Asennus- ja korjaushitsaus 20 osp</a>
                         <br></br>
                         <br></br>
                         <div>
